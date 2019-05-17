@@ -16,7 +16,6 @@
   <description>jbool_expressions is a simple open-source library for creating and manipulating boolean expressions in
     java
   </description>
-  <url>https://github.com/bpodgursky/jbool_expressions</url>
 
   <licenses>
     <license>
@@ -26,21 +25,6 @@
       <comments>A business-friendly OSS license</comments>
     </license>
   </licenses>
-
-  <scm>
-    <connection>scm:git:git@github.com:bpodgursky/jbool_expressions.git</connection>
-    <developerConnection>scm:git:git@github.com:bpodgursky/jbool_expressions.git</developerConnection>
-    <url>https://github.com/bpodgursky/jbool_expressions</url>
-    <tag>jbool_expressions-1.22</tag>
-  </scm>
-
-  <developers>
-    <developer>
-      <name>Ben Podgursky</name>
-      <email>bpodgursky@gmail.com</email>
-      <url>https://github.com/bpodgursky</url>
-    </developer>
-  </developers>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,22 +80,6 @@
           </execution>
         </executions>
       </plugin>
-
-      <!--<plugin>-->
-        <!--<groupId>org.apache.maven.plugins</groupId>-->
-        <!--<artifactId>maven-gpg-plugin</artifactId>-->
-        <!--<version>1.4</version>-->
-        <!--<executions>-->
-          <!--<execution>-->
-            <!--<id>sign-artifacts</id>-->
-            <!--<phase>verify</phase>-->
-            <!--<goals>-->
-              <!--<goal>sign</goal>-->
-            <!--</goals>-->
-          <!--</execution>-->
-        <!--</executions>-->
-      <!--</plugin>-->
-
 
       <plugin>
         <!-- explicitly define maven-deploy-plugin after other to force exec order -->
